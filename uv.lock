@@ -520,8 +520,6 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "mozichem-hub" },
-    { name = "requests" },
-    { name = "rich" },
 ]
 
 [package.optional-dependencies]
@@ -536,8 +534,6 @@ requires-dist = [
     { name = "black", marker = "extra == 'dev'" },
     { name = "mozichem-hub", specifier = ">=0.1.2" },
     { name = "pytest", marker = "extra == 'dev'" },
-    { name = "requests", specifier = ">=2.31" },
-    { name = "rich", specifier = ">=13" },
     { name = "ruff", marker = "extra == 'dev'" },
 ]
 provides-extras = ["dev"]

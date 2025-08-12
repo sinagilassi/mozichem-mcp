@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Lock files
+poetry.lock
+Pipfile.lock
+uv.lock
+
+# Misc
+*.log
+*.sqlite3
+*.db
+
+# Google Drive
+*.gsheet
+*.gdoc
+*.gsdraw
+*.gslides
+
+# Test
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Others
+*.bak
+*.tmp
+*.swp
