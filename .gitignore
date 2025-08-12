@@ -15,6 +15,9 @@ build/
 # VS Code
 .vscode/
 
+# pypirc
+.pypirc
+
 # OS
 .DS_Store
 Thumbs.db
