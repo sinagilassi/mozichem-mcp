@@ -1,0 +1,31 @@
+[project]
+name = "mozichem-mcp"
+version = "0.1.0"
+description = "MoziChem MCP tools built on top of the MoziChem framework"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Sina Gilassi", email = "sina.gilassi@gmail.com" }
+]
+requires-python = ">=3.13"
+
+dependencies = [
+  # core deps your scripts need:
+  "rich>=13",
+  "requests>=2.31",
+  # add your scientific stack as needed:
+  # "numpy>=1.26",
+  # "scipy>=1.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "black"]
+
+# Map each script file's main() to a command name
+[project.scripts]
+mcp-eos-models = "mozichem_mcp.mcp.eos_models:main"
+mcp-flash-calculation = "mozichem_mcp.mcp.flash_calculations:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
