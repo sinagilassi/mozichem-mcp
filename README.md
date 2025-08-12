@@ -68,20 +68,20 @@ Each MCP server can be run independently:
 #### EOS Models MCP Server
 
 ```bash
-# Using the installed command
-mozichem-mcp-eos-models
+# Using uvx with the published package
+uvx --from mozichem-mcp mozichem-mcp-eos-models
 
-# Or run directly with Python
+# Or run directly with Python (if installed locally)
 python -m mozichem_mcp.mcp.eos_models
 ```
 
 #### Flash Calculations MCP Server
 
 ```bash
-# Using the installed command
-mozichem-mcp-flash-calculation
+# Using uvx with the published package
+uvx --from mozichem-mcp mozichem-mcp-flash-calculation
 
-# Or run directly with Python
+# Or run directly with Python (if installed locally)
 python -m mozichem_mcp.mcp.flash_calculation
 ```
 
@@ -101,11 +101,11 @@ Add to your Claude Desktop configuration:
   "mcpServers": {
     "mozichem-eos": {
       "command": "uvx",
-      "args": ["mozichem-mcp-eos-models"]
+      "args": ["--from", "mozichem-mcp", "mozichem-mcp-eos-models"]
     },
     "mozichem-flash": {
       "command": "uvx",
-      "args": ["mozichem-mcp-flash-calculation"]
+      "args": ["--from", "mozichem-mcp", "mozichem-mcp-flash-calculation"]
     }
   }
 }
