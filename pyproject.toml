@@ -20,8 +20,8 @@ dev = ["pytest", "ruff", "black"]
 
 # Map each script file's main() to a command name
 [project.scripts]
-eos-models = "mozichem_mcp.mcp.eos_models:main"
-flash-calculation = "mozichem_mcp.mcp.flash_calculations:main"
+mozichem-mcp-eos-models = "mozichem_mcp.mcp.eos_models:main"
+mozichem-mcp-flash-calculation = "mozichem_mcp.mcp.flash_calculations:main"
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]
