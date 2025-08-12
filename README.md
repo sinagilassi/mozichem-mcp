@@ -93,12 +93,12 @@ Add to your Claude Desktop configuration:
 {
   "mcpServers": {
     "mozichem-eos": {
-      "command": "mozichem-mcp-eos-models",
-      "args": []
+      "command": "uvx",
+      "args": ["mozichem-mcp-eos-models"]
     },
     "mozichem-flash": {
-      "command": "mozichem-mcp-flash-calculation",
-      "args": []
+      "command": "uvx",
+      "args": ["mozichem-mcp-flash-calculation"]
     }
   }
 }
