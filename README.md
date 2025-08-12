@@ -1,5 +1,12 @@
 # MoziChem-MCP
 
+![MoziChem-MCP Logo](https://drive.google.com/uc?export=view&id=1WKN5vQCt8TeIltix0_oHtrME6bV5X6EK)
+
+![PyPI Version](https://img.shields.io/pypi/v/mozichem-mcp)
+![Supported Python Versions](https://img.shields.io/pypi/pyversions/mozichem-mcp.svg)
+![License](https://img.shields.io/pypi/l/mozichem-mcp)
+[![MCP](https://img.shields.io/badge/Model_Context_Protocol-Compatible-orange)](https://modelcontextprotocol.io)
+
 A collection of Model Context Protocol (MCP) servers for chemical engineering and chemistry applications, built on top of the powerful [MoziChem framework](https://github.com/sinagilassi/mozichem-hub). This repository provides specialized MCP tools that enable AI assistants to perform complex chemical calculations, thermodynamic modeling, and process engineering tasks.
 
 ## 🧪 Overview
