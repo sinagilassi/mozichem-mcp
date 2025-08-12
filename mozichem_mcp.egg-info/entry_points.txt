@@ -1,0 +1,3 @@
+[console_scripts]
+mcp-eos-models = mozichem_mcp.mcp.eos_models:main
+mcp-flash-calculation = mozichem_mcp.mcp.flash_calculations:main

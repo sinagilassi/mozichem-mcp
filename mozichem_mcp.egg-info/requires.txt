@@ -1,0 +1,8 @@
+rich>=13
+requests>=2.31
+mozichem-hub>=0.1.2
+
+[dev]
+pytest
+ruff
+black
