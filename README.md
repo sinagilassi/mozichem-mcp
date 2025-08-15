@@ -2,6 +2,10 @@
 
 ![MoziChem-MCP Logo](https://drive.google.com/uc?export=view&id=1WKN5vQCt8TeIltix0_oHtrME6bV5X6EK)
 
+<a href="https://glama.ai/mcp/servers/@sinagilassi/mozichem-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@sinagilassi/mozichem-mcp/badge" alt="MoziChem-MCP MCP server" />
+</a>
+
 ![PyPI Version](https://img.shields.io/pypi/v/mozichem-mcp)
 ![Supported Python Versions](https://img.shields.io/pypi/pyversions/mozichem-mcp.svg)
 ![License](https://img.shields.io/pypi/l/mozichem-mcp)
