@@ -6,6 +6,7 @@
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@sinagilassi/mozichem-mcp/badge" alt="MoziChem-MCP MCP server" />
 </a>
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/mozichem-mcp?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/mozichem-mcp)
 ![PyPI Version](https://img.shields.io/pypi/v/mozichem-mcp)
 ![Supported Python Versions](https://img.shields.io/pypi/pyversions/mozichem-mcp.svg)
 ![License](https://img.shields.io/pypi/l/mozichem-mcp)
